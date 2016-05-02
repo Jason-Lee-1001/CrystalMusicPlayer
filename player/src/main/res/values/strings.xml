@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">音乐</string>
+    <string name="title_activity_detail">详情</string>
+
+    <string name="song_tab">歌曲</string>
+    <string name="artist_tab">歌手</string>
+    <string name="album_tab">专辑</string>
+
+    <string name="action_play">播放</string>
+    <string name="action_add">添加</string>
+    <string name="add_to_favorite">喜爱</string>
+    <string name="action_delete">删除</string>
+
+    <string name="goto_now_playing">正在播放</string>
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+
+    <string name="songs_count">" 首歌曲"</string>
+    <string name="title_activity_boot_up_screen">启动画面</string>
+    <string name="local_music">本地曲库</string>
+    <string name="online_music">在线音乐</string>
+    <string name="personal_setting">个人设置</string>
+
+    <string name="all_music">所有曲目</string>
+    <string name="fav_list">我的收藏</string>
+    <string name="add_list">创建新列表</string>
+
+    <string name="library_title">全部</string>
+    <string name="bottom_control_bar_hint">请从库中选择音乐</string>
+    <string name="can_not_find_lyric">未找到歌词</string>
+    <string name="unknown_artist">未知艺术家</string>
+    <string name="input_key_word">输入关键字开始搜索</string>
+    <string name="home">主页</string>
+    <string name="library">本地曲库</string>
+    <string name="more">更多选项</string>
+    <string name="shuffle_is_on">正在使用随机模式</string>
+    <string name="shuffle_is_off">正在使用顺序模式</string>
+    <string name="tool_play">播放</string>
+    <string name="tool_add">添加</string>
+    <string name="tool_like">喜爱</string>
+    <string name="tool_delete">删除</string>
+    <string name="looping_is_on">正在使用单曲循环</string>
+    <string name="looping_is_off">单曲循环已关闭</string>
+    <string name="add_songs_to_fav_successfully">" 首歌添加至收藏"</string>
+    <string name="add_fav_successful">成功添加歌曲到收藏</string>
+    <string name="add_fav_not_successful">未知错误</string>
+    <string name="module_not_complete_yet">Coming soon !</string>
+    <string name="quit">退出</string>
+    <string name="dialog_delete_content">确定要删除选择的歌曲?</string>
+    <string name="delete_successfully">已成功删除</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="equalizer">均衡器</string>
+    <string name="sleep">睡眠模式</string>
+    <string name="remove_from_fav">移除</string>
+    <string name="playlist_title">播放列表名称</string>
+    <string name="key_in_name">请在此处输入列表名称</string>
+    <string name="confirm_sleep_time">请设定休眠时间</string>
+    <string name="sleep_after"> 分钟后停止播放</string>
+    <string name="sleep_example">30 分钟后停止播放</string>
+    <string name="sleep_dialog_notice">提示：睡眠模式会在暂停播放自动退出</string>
+    <string name="open_when_playing">请在播放音乐时开启</string>
+    <string name="cancel_sleep_mode">已取消睡眠模式</string>
+    <string name="mes">信息</string>
+    <string name="prefer_settings">偏好设置</string>
+    <string name="scan_size">扫描文件限制</string>
+    <string name="lryic_not_found">未找到歌词</string>
+    <string name="search_lyric_from_internet">从网络搜索歌词</string>
+    <string name="turn_on_shake">开启后摇晃设备可切换到下一曲，可能增加电量消耗</string>
+    <string name="relative_info">此应用的相关说明</string>
+    <string name="about">关于</string>
+    <string name="shake_to_switch">摇一摇切换歌曲</string>
+    <string name="files_that_smaller_will_not_be_shown">不扫描小于次值的文件(单位KB)</string>
+    <string name="do_not_turn_off_screen">不关闭屏幕</string>
+    <string name="wont_turn_off_screen_during_playing">在正在播放界面不会关闭屏幕</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="delete_lyrics_and_album_arts">删除专辑和歌词缓存</string>
+
+
+</resources>

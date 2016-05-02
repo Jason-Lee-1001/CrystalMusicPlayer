@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.studio.jason.application.activity.DetailActivity">
+    <item
+        android:id="@+id/goto_play"
+        android:title="@string/goto_now_playing"
+        android:icon="@drawable/action_goto_play_state_list"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/action_more_state_list"
+        android:showAsAction="always"
+        android:title="@string/more" />
+
+</menu>

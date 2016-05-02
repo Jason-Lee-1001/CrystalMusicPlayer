@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/now_playing_bottom">
+
+    <ImageView
+        android:id="@+id/now_playing_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/indicator2"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/play_btn_state_list"
+        android:id="@+id/now_playing_play"
+        android:layout_below="@+id/now_playing_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/now_playing_pre"
+        android:background="@drawable/previous_btn_state_list"
+        android:layout_alignBottom="@+id/now_playing_play"
+        android:layout_toLeftOf="@+id/now_playing_play" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/now_playing_next"
+        android:background="@drawable/next_btn_state_list"
+        android:layout_alignBottom="@+id/now_playing_play"
+        android:layout_toRightOf="@+id/now_playing_play"/>
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/now_playing_seekBar"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:layout_below="@+id/now_playing_play"
+        android:max="300"
+        android:maxHeight="1dp"
+        android:minHeight="1dp"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb"/>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="8sp"
+        android:text="00:00"
+        android:textStyle="bold"
+        android:textColor="@color/white0.8"
+        android:id="@+id/now_playing_start_time"
+        android:layout_above="@+id/now_playing_seekBar"
+        android:layout_alignLeft="@+id/now_playing_seekBar" />
+
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="8sp"
+        android:text="00:00"
+        android:textStyle="bold"
+        android:textColor="@color/alpha_white"
+        android:id="@+id/now_playing_end_time"
+        android:layout_above="@+id/now_playing_seekBar"
+        android:layout_alignRight="@+id/now_playing_seekBar" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crystal Player</string>
+    <string name="title_activity_detail">Detail</string>
+
+    <string name="song_tab">Songs</string>
+    <string name="artist_tab">Artists</string>
+    <string name="album_tab">Albums</string>
+
+    <string name="action_play">Play Now</string>
+    <string name="action_add">Add to</string>
+    <string name="add_to_favorite">Like</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="goto_now_playing">Now Playing</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="songs_count">" Songs"</string>
+    <string name="title_activity_boot_up_screen">BootUpScreenActivity</string>
+    <string name="local_music">Local Music</string>
+    <string name="online_music">Online Music</string>
+    <string name="personal_setting">Personal Settings</string>
+
+    <string name="all_music">Library</string>
+    <string name="fav_list">My Favorite</string>
+    <string name="add_list">Create New Playlist</string>
+
+    <string name="library_title">All</string>
+    <string name="bottom_control_bar_hint">Select music from library</string>
+    <string name="can_not_find_lyric">Could\'t find lyric</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="input_key_word">Input the key word to search</string>
+    <string name="home">Home</string>
+    <string name="library">Library</string>
+    <string name="more">More</string>
+    <string name="shuffle_is_on">Shuffle mode is on</string>
+    <string name="shuffle_is_off">Shuffle mode is off</string>
+    <string name="tool_play">Play</string>
+    <string name="tool_add">Add</string>
+    <string name="tool_like">Like</string>
+    <string name="tool_delete">Delete</string>
+    <string name="looping_is_on">Single looping is on</string>
+    <string name="looping_is_off">Single looping is off</string>
+    <string name="add_songs_to_fav_successfully">" songs add to favorite successfully"</string>
+    <string name="add_fav_successful">Add to fav successfully</string>
+    <string name="add_fav_not_successful">Error occur !</string>
+    <string name="module_not_complete_yet">-_- !\n\nModule not completed yet</string>
+    <string name="quit">Quit</string>
+    <string name="dialog_delete_content">Are you sure to delete these songs ?</string>
+    <string name="delete_successfully">Deleted !</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="sleep">Sleep Mode</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="remove_from_fav">Remove</string>
+    <string name="playlist_title">Playlist title</string>
+    <string name="key_in_name">Key in the playlist title here</string>
+    <string name="open_when_playing">please use sleep mode when playing music</string>
+    <string name="sleep_after">minutes later, player will stop</string>
+    <string name="sleep_dialog_notice">Ps : sleep mode will quit if you stop the player</string>
+    <string name="sleep_example">30 minutes later, player will stop</string>
+    <string name="confirm_sleep_time">Please set the timer</string>
+    <string name="cancel_sleep_mode">Already cancel sleep mode</string>
+    <string name="lryic_not_found">Lyric not found</string>
+    <string name="mes">Information</string>
+    <string name="prefer_settings">Preference</string>
+    <string name="scan_size">File scan limit size</string>
+    <string name="search_lyric_from_internet">Search Lyric from Internet</string>
+    <string name="about">About</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="delete_lyrics_and_album_arts">Delete the lyrics and album arts</string>
+    <string name="do_not_turn_off_screen">Do not turn off screen</string>
+    <string name="files_that_smaller_will_not_be_shown">Files that smaller will not be shown</string>
+    <string name="relative_info">About this app</string>
+    <string name="shake_to_switch">Shake to skip next track</string>
+    <string name="turn_on_shake">Turn on may cause more power consume</string>
+    <string name="wont_turn_off_screen_during_playing">Will not turn off screen in now playing screen</string>
+
+</resources>

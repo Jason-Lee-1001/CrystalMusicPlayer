@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/library_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail_activity_bg"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context=".DetailActivity">
+
+    <ListView
+        android:id="@+id/detail_list"
+        style="@style/ListViewStyle"
+        android:layout_marginBottom="60dp"
+        android:scrollbars="none" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <include
+            layout="@layout/bottom_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <include
+            layout="@layout/fav_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"  />
+
+    </FrameLayout>
+</FrameLayout>

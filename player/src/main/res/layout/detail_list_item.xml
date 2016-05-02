@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.studio.jason.application.customized_view.CheckableListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/detail_list_item"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/list_item_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="1dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_alpha_white"
+        android:textSize="14sp"
+        android:id="@+id/detail_item_textView1"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white0.8"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/detail_item_textView2"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/detail_item_textView1"
+        android:layout_toRightOf="@+id/detail_item_textView1" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_item_textView3"
+        android:textColor="@color/common_alpha_white"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/detail_item_textView2"
+        android:layout_alignLeft="@+id/detail_item_textView2"
+        android:layout_alignStart="@+id/detail_item_textView2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_checkBox"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:button="@drawable/checkbox_indicator_state_list" />
+
+</com.studio.jason.application.customized_view.CheckableListItemView>

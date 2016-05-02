@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="rose_red">#FF8B0125</color>
+    <color name="white0.8">#D0FFFFFF</color>
+    <color name="alpha_white">#B4FFFFFF</color>
+    <color name="orange">#FFC24D10</color>
+    <color name="black">#FF000000</color>
+    <color name="alpha_black">#50000000</color>
+    <color name="darker_alpha_black">#80000000</color>
+    <color name="common_alpha_white">#70FFFFFF</color>
+    <color name="white0.3">#27FFFFFF</color>
+    <color name="alpha">#00FFFFFF</color>
+    <color name="black_overlay">#30000000</color>
+    <color name="grey">#ff313131</color>
+    <color name="sky_blue">#FF3696B2</color>
+    <color name="water_blue">#FF0072AD</color>
+
+</resources>

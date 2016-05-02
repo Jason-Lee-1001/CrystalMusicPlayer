@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/prefer_settings">
+        <Preference
+            android:key="clear_image_cache"
+            android:summary="@string/delete_lyrics_and_album_arts"
+            android:title="@string/clear_cache">
+        </Preference>
+        <CheckBoxPreference
+            android:checked="false"
+            android:defaultValue="false"
+            android:key="keep_screen_on"
+            android:summary="@string/wont_turn_off_screen_during_playing"
+            android:title="@string/do_not_turn_off_screen" />
+        <EditTextPreference
+            android:defaultValue="800"
+            android:inputType="number"
+            android:key="scan_size"
+            android:title="@string/scan_size"
+            android:summary="@string/files_that_smaller_will_not_be_shown"/>
+        <com.studio.jason.application.ui.CustomSwitchPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="shake"
+            android:summary="@string/turn_on_shake"
+            android:title="@string/shake_to_switch"
+            android:widgetLayout="@layout/setting_fragment_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/mes">
+        <Preference
+            android:key="about"
+            android:summary="@string/relative_info"
+            android:title="@string/about" >
+            <intent
+                android:targetPackage="com.studio.jason.application"
+                android:targetClass="com.studio.jason.application.activity.InfoActivity"/>
+            </Preference>
+    </PreferenceCategory>
+    <!--android:fragment="com.android.settings.wifi.WifiSettings"-->
+</PreferenceScreen>

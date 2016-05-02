@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studio.jason.application.fragment.library.ArtistListFragment">
+
+        <ListView
+            android:id="@+id/artist_list"
+            style="@style/ListViewStyle"
+            android:fastScrollEnabled="true"
+            android:scrollbarStyle="outsideOverlay"/>
+
+</FrameLayout>

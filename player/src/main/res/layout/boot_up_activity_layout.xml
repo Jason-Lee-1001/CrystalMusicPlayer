@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studio.jason.application.activity.BootUpScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boot_up_screen_bg"
+        android:contentDescription="@null"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:indeterminateDrawable="@drawable/indetermine_progress"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/boot_up_icon_image"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/boot_up_image"
+        android:contentDescription="@null"/>
+
+</FrameLayout>

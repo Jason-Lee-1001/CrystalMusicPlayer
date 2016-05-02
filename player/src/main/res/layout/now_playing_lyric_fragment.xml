@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_bg">
+
+    <com.studio.jason.application.ui.LrcView
+        android:id="@+id/now_playing_lyric_text"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/lrc_progressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="150dp"
+        android:alpha="0.7"
+        android:indeterminateDrawable="@drawable/indetermine_progress"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+
+    <!--<Button
+        android:id="@+id/download_lrc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/action_search_state_list"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/search_internet"
+        android:layout_toEndOf="@+id/search_internet" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="15dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/radio_title_color_state"
+        android:text="@string/search_lyric_from_internet"
+        android:id="@+id/search_internet"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_bg"
+        android:drawableLeft="@drawable/search_icon"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

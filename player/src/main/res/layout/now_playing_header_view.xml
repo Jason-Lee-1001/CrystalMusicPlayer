@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/now_playing_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/now_playing_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navigation_up" />
+
+    <TextView
+        android:id="@+id/now_playing_big_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/now_playing_like"
+        android:layout_toRightOf="@+id/now_playing_back"
+        android:layout_toStartOf="@+id/now_playing_like"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/now_playing_sub_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/now_playing_big_title"
+        android:layout_alignLeft="@+id/now_playing_big_title"
+        android:layout_alignRight="@+id/now_playing_big_title"
+        android:layout_below="@+id/now_playing_big_title"
+        android:singleLine="true"
+        android:textColor="@color/common_alpha_white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/now_playing_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/now_playing_big_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/action_add_to_fav_state_list" />
+</RelativeLayout>

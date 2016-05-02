@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studio.jason.application.fragment.library.SongListFragment">
+
+
+    <ListView
+        android:id="@+id/song_list"
+        style="@style/ListViewStyle"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/list_index"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="#" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="A" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="B" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="C" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="D" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="E" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="F" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="G" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="H" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="I" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="J" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="K" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="L" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="M" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="N" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="O" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="P" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="Q" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="R" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="S" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="T" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="U" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="V" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="W" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="X" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="Y" />
+
+        <TextView
+            style="@style/index_text_style"
+            android:text="Z" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/songlist_index_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white0.8"
+        android:background="@drawable/index_indicator"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textSize="40sp" />
+
+</FrameLayout>

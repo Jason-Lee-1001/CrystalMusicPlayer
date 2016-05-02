@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/library_tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/bottom_bar_bg"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/tool_bar_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tool_bar_play"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tool_bar_play_state_list"
+            android:onClick="toolbar_item_click" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_play"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tool_bar_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/tool_bar_first"
+        android:layout_toRightOf="@+id/tool_bar_first"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tool_bar_add"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tool_bar_add_state_list"
+            android:onClick="toolbar_item_click" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_add"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tool_bar_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/tool_bar_second"
+        android:layout_toRightOf="@+id/tool_bar_second"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tool_bar_like"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tool_bar_fav_state_list"
+            android:onClick="toolbar_item_click" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_like"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tool_bar_forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/tool_bar_third"
+        android:layout_toRightOf="@+id/tool_bar_third"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tool_bar_delete"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tool_bar_delete_state_list"
+            android:onClick="toolbar_item_click" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tool_delete"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

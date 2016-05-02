@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/home_local_radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/actionBarSize"
+        android:singleLine="true"
+        android:button="@null"
+        android:checked="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="@string/local_music"
+        android:textColor="@color/radio_title_color_state" />
+
+    <RadioButton
+        android:id="@+id/home_online_radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/actionBarSize"
+        android:singleLine="true"
+        android:button="@null"
+        android:checked="false"
+        android:paddingLeft="10dp"
+        android:text="@string/online_music"
+        android:textColor="@color/radio_title_color_state" />
+
+</RadioGroup>

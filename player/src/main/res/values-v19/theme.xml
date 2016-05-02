@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--use in home activity-->
+    <style name="HomeTheme" parent="@android:style/Theme.Holo">
+        <item name="android:actionModeBackground">@color/alpha</item>
+        <item name="android:actionModeCloseDrawable">@drawable/cancel_btn_state_list</item>
+        <item name="android:actionModeCloseButtonStyle">@null</item>
+        <item name="android:actionBarStyle">@style/HomeActionBarStyle</item>
+        <item name="android:actionBarItemBackground">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_bar</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="LibraryTheme" parent="HomeTheme">
+        <item name="android:actionBarStyle">@style/LibraryActionBarStyle</item>
+    </style>
+
+    <!--use in now playing and search activity-->
+    <style name="PlayingAndSearchTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_scroll_bar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="SettingActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!--use in boot up activity-->
+    <style name="BootUpTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="HomeActionBarStyle" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/alpha</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+
+    <style name="LibraryActionBarStyle" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/alpha</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+</resources>
